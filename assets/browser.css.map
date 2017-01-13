@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,UAAW;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI",
+"mappings": "AAAA,UAAW;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC",
 "sources": ["browser.scss"],
 "names": [],
 "file": "browser.css"

@@ -1,6 +1,6 @@
 {
   "name": "teamworkchat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial Teamwork Chat client",
   "main": "main.js",
   "scripts": {
@@ -26,6 +26,7 @@
   "author": { "name" : "Maroš Dudžák", "email" : "dudzak@creanet.sk " , "url" : "https://www.creanet.sk" },
   "license": "MIT License",
   "devDependencies": {
-    "electron": "^1.4.1"
+    "electron": "^1.4.1",
+    "electron-logger": "0.0.3"
   }
 }
