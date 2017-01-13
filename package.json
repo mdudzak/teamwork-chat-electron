@@ -1,0 +1,31 @@
+{
+  "name": "teamworkchat",
+  "version": "1.0.0",
+  "description": "Unofficial Teamwork Chat client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build --linux"
+  },
+  "postinstall": "install-app-deps",
+  "repository": "https://github.com/mdudzak/teamwork-chat-electron.git",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "build": {
+    "appId": "sk.creanet.teamworkchat",
+    "linux": {
+      "target": "deb"
+    }
+  },
+  "author": { "name" : "Maroš Dudžák", "email" : "dudzak@creanet.sk " , "url" : "https://www.creanet.sk" },
+  "license": "MIT License",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}
